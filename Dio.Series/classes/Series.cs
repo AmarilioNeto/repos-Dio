@@ -1,3 +1,5 @@
+using System;
+
 namespace Dio.Series
 {
     public  class Series : EntidadeBase
@@ -38,7 +40,7 @@ namespace Dio.Series
        {
            return this.Id;
        }
-       public void Excluir()
+       public void retornaExcluido()
        {
            this.Excluido = true;
        }

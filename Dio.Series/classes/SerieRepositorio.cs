@@ -12,9 +12,9 @@ namespace Dio.Series
             listaSerie[id] = objeto;
         }
 
-        public void Exclui(int id)
+        public void retornaExcluido(int id)
         {
-            listaSerie[id].Excluir(); 
+            listaSerie[id].retornaExcluido(); 
         }
 
         public void Insere(Series objeto)
@@ -22,7 +22,7 @@ namespace Dio.Series
            listaSerie.Add(objeto);
         }
 
-        public List<Series> lista()
+        public List<Series> Lista()
         {
             return listaSerie;
         }
@@ -37,4 +37,4 @@ namespace Dio.Series
            return listaSerie[id];
     }
 }
-}
+} 
